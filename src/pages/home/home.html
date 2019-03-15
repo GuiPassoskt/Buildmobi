@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="white">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Build<span>mobi</span></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-grid>
+    <ion-row>
+      <ion-col col-6  *ngFor="let work of works">    
+        <ion-card id="works" [ngStyle]="{'border-top':'3px solid '+ work.color}" (click)="openMenu(work.page)">
+          <ion-item>
+            <div align="center">
+              <h2 style="font-weight:bold;">{{work.name}}</h2>
+            </div>
+            <div align="center">
+              <ion-icon class="key" name="{{work.img}}" center></ion-icon>
+            </div>
+            <p align="center">Detalhes:</p>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>
+<tabs></tabs>

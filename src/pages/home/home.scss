@@ -1,0 +1,40 @@
+.ios, .md{
+    page-home {
+        .header{
+            background-color: #ffffff!important;
+            font-family: 'Pacifico';
+		}
+        .toolbar-title {
+            padding: 0px 80px;
+            margin-left: -20px;
+            font-size: 2rem;
+            font-weight: 500;
+            color: #424242;
+            span{
+				color: teal;
+			}
+        }
+        ion-content{
+            background: #EDF5F6 !important;
+        }
+        #works{
+            //border-top: 3px solid cyan !important;
+            //border-top: 3px solid cyan;
+            border-radius:6px;
+            text-align: center;
+            p{
+                color: #424242;
+                font-size: 14px;
+                font-weight: lighter;
+            }
+        }
+        .key{
+            font-size: 40px;
+            align-items: center;
+            text-align: center;
+        }
+        ion-icon{
+            color: #424242;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Buildmobi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,47 @@
+tabs {
+    .menu{
+        background: #fff;
+        height: 55px;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        z-index: 99999;
+        box-shadow: 0px 0px 1em gray;
+    }
+    .cover{
+        background: #fff;
+        width:86px;
+        height: 86px;
+        border-radius: 100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: -35px;
+    }
+    ion-icon {
+        display: inline-block;
+        font-size: 1.9em;
+    }
+    .button{
+        background: cyan;
+        border-radius: 100%;
+        color:purple;
+        font-size: 25px;
+        height: 55px;
+        text-align: center;
+        z-index: 9999;
+        line-height: -moz-block-height;
+        margin: 10px;
+        padding-top: 10px;
+        width: 75%;
+    }
+    .menu button {width:38px;height:auto;margin:3%;border-radius:100%;border:none;color:purple;}
+    .menu button:nth-child(1){border:1px solid cyan;background:transparent;}
+    .menu button:nth-child(2){border:1px solid cyan;background:transparent;}
+    .menu button:nth-child(3){border:1px solid cyan;background:transparent;}
+    .menu button:nth-child(4){border:1px solid cyan;background:transparent;}
+    .menu button:nth-child(5){border:1px solid cyan;background:transparent;}
+}
